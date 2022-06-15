@@ -1,0 +1,50 @@
+.top-btn {
+    z-index: 9999;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    border-radius: 50%;
+    background: rgb(245, 245, 245);
+    filter: drop-shadow(1px 1px 1px black);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 3.2rem;
+    height: 3.2rem;
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+}
+
+.top-btn :active {
+    filter: none;
+    transform: translateX(1px) translateY(1px) translateZ(1px);
+}
+
+.arrow {
+    width: 1.2rem;
+    height: 3px;
+    background-color: #1a1a1a;
+    background: transparent;
+    border-radius: 2px;
+    border: none;
+}
+.arrow::before,
+.arrow::after {
+    content: "";
+    position: absolute;
+    width: 1.2rem;
+    height: 3px;
+    background-color: #1a1a1a;
+    border-radius: 2px;
+    border: none;
+}
+.arrow::before {
+    transform-origin: (0, 0);
+    transform: translateX(8px) rotate(25deg);
+    
+}
+.arrow::after {
+    transform-origin: (0, 0);
+    transform: translateX(-8px) rotate(-25deg);
+}

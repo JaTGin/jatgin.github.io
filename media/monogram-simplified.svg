@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="5in"
+   height="5in"
+   viewBox="0 0 127 127"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="monogram-simplified.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="true"
+     units="in"
+     width="1in"
+     showguides="false"
+     objecttolerance="20"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="300.16683"
+     inkscape:cy="255.26555"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid1984" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="powerclip"
+       id="path-effect5506"
+       is_visible="true"
+       lpeversion="1"
+       inverse="true"
+       flatten="false"
+       hide_clip="false"
+       message="Use fill-rule evenodd on &lt;b&gt;fill and stroke&lt;/b&gt; dialog if no flatten result after convert clip to paths." />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5502">
+      <path
+         id="path5504"
+         style="display:none;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.14643;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:normal"
+         d="m 63.5,20.637498 c -1.465789,0 -2.645833,1.180043 -2.645833,2.645833 V 101.94725 L 25.453226,81.094273 c -1.202064,-0.70807 -2.739781,-0.310129 -3.447851,0.891934 -0.70807,1.202063 -0.310646,2.739782 0.891418,3.447852 l 38.962481,22.950521 c 0.516538,0.30426 1.09475,0.40316 1.642792,0.32298 0.546693,0.079 1.123554,-0.0196 1.63866,-0.32298 L 104.10321,85.434059 c 1.20206,-0.70807 1.59948,-2.245789 0.89141,-3.447852 -0.14107,-0.239493 -0.31594,-0.445833 -0.51366,-0.619082 -0.46092,-0.570087 -1.16605,-0.933794 -1.95957,-0.933794 H 83.21611 c -1.395106,0 -2.518193,1.123087 -2.518193,2.518193 0,1.395105 1.123087,2.518193 2.518193,2.518193 H 94.118803 L 66.145831,101.94673 V 23.283331 c 0,-1.46579 -1.180042,-2.645833 -2.645831,-2.645833 z" />
+      <path
+         id="lpe_path-effect5506"
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.14643;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:normal"
+         class="powerclip"
+         d="M -3.4523544,-3.4523544 H 130.68701 V 130.68701 H -3.4523544 Z M 63.5,20.637498 c -1.465789,0 -2.645833,1.180043 -2.645833,2.645833 V 101.94725 L 25.453226,81.094273 c -1.202064,-0.70807 -2.739781,-0.310129 -3.447851,0.891934 -0.70807,1.202063 -0.310646,2.739782 0.891418,3.447852 l 38.962481,22.950521 c 0.516538,0.30426 1.09475,0.40316 1.642792,0.32298 0.546693,0.079 1.123554,-0.0196 1.63866,-0.32298 L 104.10321,85.434059 c 1.20206,-0.70807 1.59948,-2.245789 0.89141,-3.447852 -0.14107,-0.239493 -0.31594,-0.445833 -0.51366,-0.619082 -0.46092,-0.570087 -1.16605,-0.933794 -1.95957,-0.933794 H 83.21611 c -1.395106,0 -2.518193,1.123087 -2.518193,2.518193 0,1.395105 1.123087,2.518193 2.518193,2.518193 H 94.118803 L 66.145831,101.94673 V 23.283331 c 0,-1.46579 -1.180042,-2.645833 -2.645831,-2.645833 z" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path960"
+       style="fill:#4fbab9;stroke-width:1.23608;stroke-linejoin:round;stroke-linecap:round"
+       d="M 125.68701,63.617329 A 62.069683,62.069683 0 0 1 63.617329,125.68701 62.069683,62.069683 0 0 1 1.5476456,63.617329 62.069683,62.069683 0 0 1 63.617329,1.5476456 62.069683,62.069683 0 0 1 125.68701,63.617329 Z"
+       clip-path="url(#clipPath5502)"
+       inkscape:path-effect="#path-effect5506"
+       inkscape:original-d="M 125.68701,63.617329 A 62.069683,62.069683 0 0 1 63.617329,125.68701 62.069683,62.069683 0 0 1 1.5476456,63.617329 62.069683,62.069683 0 0 1 63.617329,1.5476456 62.069683,62.069683 0 0 1 125.68701,63.617329 Z" />
+  </g>
+</svg>

@@ -1,1 +1,138 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Web site created using create-react-app"/><link rel="apple-touch-icon" href="/logo192.png"/><link rel="manifest" href="/manifest.json"/><title>React App</title><script defer="defer" src="/static/js/main.7e69b739.js"></script><link href="/static/css/main.073c9b0a.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body></html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jake Giniewski</title>
+    <link rel="stylesheet" href="styles/bootstrap-reboot.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles/portstyle.css" />
+    <script src="scripts/index.js" type="module"></script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <a id="top"></a>
+        <div id="intro">
+          <!-- Swap to SVG when I learn how to actually use Inkscape -->
+          <img src="media/monogram.svg" alt="monogram" />
+          <p id="name">JAKE GINIEWSKI</p>
+          <hr />
+          <p id="tagline">
+            Providing sleek and stylish software solutions. <br />
+            Try saying that five times fast.
+          </p>
+        </div>
+        <navbar-component></navbar-component>
+      </header>
+
+      <!-- Covers main and footer content in a white background -->
+      <div id="whitebg">
+        <main>
+          <div id="bio">
+            <!-- Headshot, wrap text -->
+            <h2>Hi, I'm Jake.</h2>
+            <span id="headshot"
+              ><img src="media/headshot.jpg" alt="headshot"
+            /></span>
+            <p class="column is-size-4 mx-2">
+              I am a Junior at Rochester Institute of Technology majoring in
+              Game Design and Development. I'm and fast learner with experience
+              in several programming languages, development environments, and
+              design roles. I do my best work while cooperating with others- I'm
+              a great team player and leader, and my adaptability and experience
+              allows me to meet almost any need quickly and efficiently. When
+              I'm not making games, I'm probably trying to learn something new-
+              right now, I'm learning about digital audio and improving my
+              cooking.
+            </p>
+          </div>
+
+          <hr />
+
+          <!-- Section for all projects -->
+          <p></p>
+          <h2>Things I've Done</h2>
+          <section id="projects">
+            <project-component
+              data-title="The Sun May Rise Again"
+              data-image="media/tsmra.png"
+              data-desc="Skyrim mod developed in a group of five in which I worked on 
+              level design, quest scripting, and NPC design. I also built the development 
+              pipeline for the project and ended up doing or overseeing most of 
+              the version control for the team."
+              data-projtype="Educational Group Project"
+              data-technologies="Papyrus,Bethesda Creation Kit,Github,Trello"
+            ></project-component>
+            <project-component
+              data-title="Mage Match"
+              data-image="media/mm.png"
+              data-desc="Casual 2D puzzle game created in a group of 5. I led 
+              development and established the project's workflow, and designed the 
+              game's states, onboarding procedures, and several small mechanics to improve 
+              polish and quality-of-life."
+              data-projtype="Educational Group Project"
+              data-technologies="JavaScript (PixiJS),HTMl,CSS,Photoshop,Github,Trello"
+              data-playurl="https://people.rit.edu/jtg1984/projects/mage-match/index.html"
+            ></project-component>
+            <project-component
+              data-title="Dresden in Darkness"
+              data-image="media/did.png"
+              data-desc="Academic project built by a team of 5 tasked 
+              with designing a game prototype based in the universe of a comic 
+              called the Dresden Files. The result was an exploration of 
+              Unity's lighting systems to create a top-down game in which 
+              the player's main challenge is maneuvering through a trap-laden 
+              room in a low-light environment. I was the team lead for this 
+              project, and contributed to the game's art and coding, 
+              designing the structure of the tutorial level we built, 
+              the level editor, most of the tiles in the game's tile 
+              placement system, and lighting and particle systems for the 
+              game's fire effects. I also worked on auditing my team's code and debugging 
+              hangups between Git and Unity."
+              data-projtype="Educational Group Project"
+              data-technologies="Unity,Github,Photoshop,Trello"
+            ></project-component>
+            <project-component
+              data-title="Terraformer!"
+              data-image="media/terraformersc.jpg"
+              data-desc="Project in which I designed a top-down RPG in vanilla JavaScript. 
+              Includes an on-the-fly terrain editing system in which the player can use 
+              the layout of each level to their advantage in combat and puzzle encounters. 
+              Vanilla JS was especially challenging to work with in comparison to other editors or frameworks, 
+              but the project was fun to build and is interesting to play."
+              data-projtype="Solo Educational Project"
+              data-technologies="JavaScript, HTML, CSS, Photoshop"
+              data-playurl="https://people.rit.edu/jtg1984/235/project3/index.html"
+            ></project-component>
+          </section>
+
+          <hr />
+
+          <!-- Resume -->
+          <div id="resume">
+            <h2>Résumé</h2>
+            <iframe src="media/resume.pdf"></iframe>
+          </div>
+        </main>
+
+        <!-- Contact Info -->
+        <footer id="contact">
+          <h2>
+            <a href="mailto:jtg1984@rit.edu"><i class="fas fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/jake-giniewski-4457421b8/"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </h2>
+          <p>Copyright © 2022 Jake Giniewski</p>
+        </footer>
+      </div>
+
+      <!-- 'To Top' Button -->
+      <top-button-component></top-button-component>>
+    </div>
+  </body>
+</html>
