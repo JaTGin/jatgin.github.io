@@ -29,6 +29,11 @@ template.innerHTML = `
                 Contact
             </a>
         </li>
+        <li class="nav-item">
+            <a class="nav-link" href="page2.html">
+                test test
+            </a>
+        </li>
     </ul>
 </nav>
 
